@@ -22,19 +22,19 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone, My name is{" "}
-                <span className="different">Shreyas Khakal </span> and I am from{" "}
+                <span className="different">Mubashar Nazir </span> and I am from{" "}
                 <span className="different">
                   {" "}
-                  Ahmednagar, Maharashtra (India)
+                  Lahore, Punjab (Pakistan)
                 </span>
-                . I have completed my graduation in BTech (Agril. Engineering)
+                . I have completed my graduation in Bs Computer Science
                 from{" "}
                 <span className="different">
-                  VNMKV Agricultural University, Parbhani (MH)
+                  Superior university lahore pakistan,
                 </span>
-                . Then I joined full stack development course by{" "}
-                <span className="different">Masai School</span> a military type
-                coding school.
+                . there I learned flutter development course by{" "}
+                <span className="different">in 6th semester</span> and learned basic knowledge
+                of flutter.
               </h4>
               <h4>Terms That can describe me apart form Coding :</h4>
               <h4 className="different">

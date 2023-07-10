@@ -17,14 +17,14 @@ export const About = () => {
     <>
       <div className="about center">
         <h1 data-aos="fade-right" className="mobileHead">
-          Hello, I am <span className="about__name">Shreyas Khakal</span>
+          Hello, I am <span className="about__name">Mubashar Nazir</span>
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          Passionate and creative Full Stack Developer having proficiency in
-          MERN Stack. Attired with a variety of tools & technologies and keen to
-          learn new one. Worked on wordpress since last 3 years and delivered
-          15+ projects till now.
+          Passionate and creative Flutter Developer having proficiency in
+          Dart,Oop and Firebase. Attired with a variety of tools & technologies and keen to
+          learn new one. Working on Flutter since last 1 years and delivered
+          3 simple projects till now.
         </p>
         <div className="about__contact center">
           <a

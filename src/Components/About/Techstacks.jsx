@@ -1,6 +1,6 @@
 import React from "react";
 import "./Techstacks.css";
-import { FaReact, FaNodeJs, FaAws } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaAws, FaHtml5 } from "react-icons/fa";
 import {
   SiRedux,
   SiHtml5,
@@ -8,9 +8,13 @@ import {
   SiExpress,
   SiRedis,
   SiTailwindcss,
-  SiNetlify
+  SiNetlify,
+  SiFlutter,
+  SiDart,
+  SiPhp,
+  SiPython
 } from "react-icons/si";
-import { DiCss3, DiMongodb } from "react-icons/di";
+import { DiCss3, DiFirebase, DiLinux, DiMongodb, DiSqllite } from "react-icons/di";
 import { SiJavascript, SiHeroku } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap, BsWordpress } from "react-icons/bs";
@@ -22,50 +26,50 @@ export const Techstacks = () => {
         <h2 className="section__title different">Skills</h2>
         <div className="techsection">
           <div>
-            <SiJavascript />
-            <h5>Javascript</h5>
+            <SiFlutter />
+            <h5>Flutter</h5>
           </div>
           <div>
-            <SiHtml5 />
-            <h5>HTML</h5>
+            <SiDart />
+            <h5>Dart</h5>
           </div>
           <div>
-            <DiCss3 />
+            <DiFirebase />
             <h5>CSS</h5>
           </div>
           <div>
-            <FaReact />
-            <h5>React</h5>
+            <DiSqllite />
+            <h5>Sqllite</h5>
           </div>
           <div>
+            <FaHtml5 />
+            <h5>Html</h5>
+          </div>
+          <div>
+            <DiCss3 />
+            <h5>Css</h5>
+          </div>
+
+          <div>
+            <SiPhp />
+            <h5>Php</h5>
+          </div>
+
+          <div>
             <FaNodeJs />
-            <h5>Nodejs</h5>
+            <h5>NodeJS</h5>
           </div>
           <div>
             <DiMongodb />
-            <h5>MongoDb</h5>
-          </div>
-
-          <div>
-            <SiExpress />
-            <h5>Express</h5>
-          </div>
-
-          <div>
-            <FaAws />
-            <h5>AWS</h5>
+            <h5>MongoDB</h5>
           </div>
           <div>
-            <BsBootstrap />
-            <h5>Bootstrap</h5>
+            <DiLinux />
+            <h5>Linux</h5>
           </div>
           <div>
-            <BsWordpress />
-            <h5>Wordpress</h5>
-          </div>
-          <div>
-            <SiHeroku />
-            <h5>Heroku</h5>
+            <SiPython />
+            <h5>Python</h5>
           </div>
           <div>
             <VscGithub />
